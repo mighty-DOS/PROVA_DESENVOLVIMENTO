@@ -12,16 +12,6 @@ Content-Type: application/json
 ### Listar todos os tarefas
 GET https://localhost:5001/api/tarefa/list
 
-### Buscar um tarefa pelo id
-GET https://localhost:5001/api/tarefa/getbyid/1
-
-### Deletar um tarefa pelo nome
-DELETE https://localhost:5001/api/tarefa/delete/Prova
-
-### Alterar um tarefa
-PUT https://localhost:5001/api/tarefa/update
-Content-Type: application/json
-
 {
     "Id" : "1",
     "Nome" : "Prova",
