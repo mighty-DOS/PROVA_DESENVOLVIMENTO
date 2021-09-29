@@ -9,11 +9,11 @@ const routes: Routes = [
         component: ListarTarefaComponent,
     },
     {
-        path: "produto/listar",
+        path: "tarefa/listar",
         component: ListarTarefaComponent,
     },
     {
-        path: "produto/cadastrar",
+        path: "tarefa/cadastrar",
         component: CadastrarTarefaComponent,
     },
 ];
