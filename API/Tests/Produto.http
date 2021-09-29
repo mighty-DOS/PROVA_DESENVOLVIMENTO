@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
     "Nome" : "Bolacha",
-    "Prazo" : "2021-09-29T12:04:31.836Z",
+    "Prazo" : "29.09.2021",
     "Descrição": "string",
     "Data Conclusão": "2021-09-29T12:04:31.836Z"
 }
