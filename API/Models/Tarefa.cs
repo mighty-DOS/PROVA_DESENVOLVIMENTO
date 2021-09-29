@@ -4,6 +4,7 @@ namespace API.Models
 {
     public class Tarefa
     {
+        
 
         public int Id { get; set; }
         public string Nome { get; set; }
@@ -11,5 +12,7 @@ namespace API.Models
         public string Descricao { get; set; }
         public DateTime Conclusao { get; set; }
 
+        public override string ToString() =>
+            $"Nome: {Nome} | Prazo: {Prazo} | Descricao: {Descricao} | Conclusao: {Conclusao}";
     }
 }
