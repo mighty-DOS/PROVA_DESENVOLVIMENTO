@@ -1,6 +1,5 @@
 import { Tarefa } from './../../Models/Tarefa';
 import { Component, OnInit } from "@angular/core";
-import { Tarefa } from "src/app/Models/Tarefa";
 import { TarefaService } from "src/app/Service/Tarefa.service";
 
 @Component({
