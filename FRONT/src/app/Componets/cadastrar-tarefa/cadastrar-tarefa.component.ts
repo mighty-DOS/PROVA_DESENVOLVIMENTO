@@ -27,7 +27,7 @@ export class CadastrarTarefaComponent implements OnInit {
         };
         this.service.create(tarefa).subscribe((tarefa) => {
             console.log(tarefa);
-            this.router.navigate(["tarefa/listar"]);
+            this.router.navigate([""]);
         });
     }
 }

@@ -7,7 +7,7 @@ import { Tarefa } from "../Models/Tarefa";
     providedIn: "root",
 })
 export class TarefaService {
-    private baseURL = "https://localhost:5001/api/tarefa/list";
+    private baseURL = "https://localhost:5001/api/tarefa";
 
     constructor(private http: HttpClient) {}
 
