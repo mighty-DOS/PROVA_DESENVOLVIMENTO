@@ -7,7 +7,7 @@ namespace API.Models
 
         public int Id { get; set; }
         public string Nome { get; set; }
-        public DateTime Prazo { get; set; }
+        public float Prazo { get; set; }
         public string Descricao { get; set; }
         public DateTime Conclusão { get; set; }
 
