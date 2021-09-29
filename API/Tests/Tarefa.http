@@ -3,6 +3,7 @@ POST https://localhost:5001/api/tarefa/create
 Content-Type: application/json
 
 {
+    "Id" : "1",
     "Nome" : "Bolacha",
     "Prazo" : "2021-09-29T12:04:31.836Z",
     "Descrição": "string",
@@ -16,14 +17,16 @@ GET https://localhost:5001/api/tarefa/list
 GET https://localhost:5001/api/tarefa/getbyid/1
 
 ### Deletar um tarefa pelo nome
-DELETE https://localhost:5001/api/tarefa/delete/Bolacha
+DELETE https://localhost:5001/api/tarefa/delete/Prova
 
 ### Alterar um tarefa
 PUT https://localhost:5001/api/tarefa/update
 Content-Type: application/json
 
 {
-    "Id" : 1,
-    "Nome" : "Bolacha alterada",
-    "Preco" : 3.5
+    "Id" : "1",
+    "Nome" : "Prova",
+    "Prazo" : "2021-09-29T12:04:31.836Z",
+    "Descrição": "string",
+    "Data Conclusão": "29.09.2021 "
 }
