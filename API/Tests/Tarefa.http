@@ -3,10 +3,10 @@ POST https://localhost:5001/api/tarefa/create
 Content-Type: application/json
 
 {
-    "Nome" : "Bolacha",
-    "Prazo" : "2021-09-29T12:04:31.836Z",
+    "Nome" : "Prova",
+    "Prazo" : "29092021",
     "Descrição": "string",
-    "Data Conclusão": "29092021 "
+    "Data Conclusão": "2021-09-29T12:04:31.836Z"
 }
 
 ### Listar todos os tarefas
@@ -25,7 +25,7 @@ Content-Type: application/json
 {
     "Id" : "1",
     "Nome" : "Prova",
-    "Prazo" : "2021-09-29T12:04:31.836Z",
+    "Prazo" : "01012021",
     "Descrição": "string",
-    "Data Conclusão": "29092021"
+    "Data Conclusão": "2021-09-29T12:04:31.836Z"
 }
