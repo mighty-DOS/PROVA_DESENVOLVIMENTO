@@ -4,9 +4,9 @@ Content-Type: application/json
 
 {
     "Nome" : "Bolacha",
-    "Prazo" : "29.09.2021",
+    "Prazo" : "2021-09-29T12:04:31.836Z",
     "Descrição": "string",
-    "Data Conclusão": "2021-09-29T12:04:31.836Z"
+    "Data Conclusão": "29.09.2021 "
 }
 
 ### Listar todos os tarefas
