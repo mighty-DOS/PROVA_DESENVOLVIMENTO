@@ -1,0 +1,29 @@
+### Cadastrar uma nova tarefa
+POST https://localhost:5001/api/tarefa/create
+Content-Type: application/json
+
+{
+    "Nome" : "Bolacha",
+    "Prazo" : "2021-09-29T12:04:31.836Z",
+    "Descrição": "string",
+    "Data Conclusão": "29.09.2021 "
+}
+
+### Listar todos os tarefas
+GET https://localhost:5001/api/tarefa/list
+
+### Buscar um tarefa pelo id
+GET https://localhost:5001/api/tarefa/getbyid/1
+
+### Deletar um tarefa pelo nome
+DELETE https://localhost:5001/api/tarefa/delete/Bolacha
+
+### Alterar um tarefa
+PUT https://localhost:5001/api/tarefa/update
+Content-Type: application/json
+
+{
+    "Id" : 1,
+    "Nome" : "Bolacha alterada",
+    "Preco" : 3.5
+}
